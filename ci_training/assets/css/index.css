@@ -1,0 +1,223 @@
+/********** login form***********/
+.inner-container
+{
+  width: 100%;
+  min-height: 50rem;
+  display: flex;
+  justify-content: center;
+}
+.login-container
+{
+  margin-top: 4rem;
+  width: 40%;
+  height: 29rem;
+  background-color: white;
+  opacity: 0.6;
+  text-align: center;
+}
+.base-font
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.secondary-font
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.input-area
+{
+  width: 60%;
+  margin: auto;
+  margin-top: 5rem;
+}
+.input-text
+{
+  font-size: 15px;
+  color: black;
+  font-weight: 900;
+}
+.form-control
+{
+  border: 1px solid green;
+}
+.icon-align
+{
+  text-align: center;
+}
+.input-section
+{
+  margin-bottom: 1.5rem;
+}
+.btn-lg
+{
+  float: right;
+}
+.alert-error
+{
+  color: red;
+  font-size: 16px;
+}
+.login-button
+{
+  background-color: grey;
+  color: white;
+  border-radius: 5%;
+  border: none;
+  font-size: 25px;
+}
+/***********file upload section*********/
+.upload-section > input[type=file]
+{
+ color: blue;
+ padding-left: 15rem;
+}
+.upload-section
+{
+  width: 40%;
+  margin: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: white;
+}
+.upload-section > h2
+{
+  color: blue;
+  font-weight: 600;
+  margin-top: 3rem;
+  font-size: 2rem;
+  padding-left: 10rem;
+}
+.submit-section
+{
+  width: 40%;
+  margin: auto;
+  padding: 2rem 20rem;
+  background-color: white;
+}
+.upload-submit
+{
+  background-color: #0d6994;
+  color: white;
+  padding: 10px;
+  border-radius: 10%;
+  border: none; 
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    16% {
+       opacity: 1;
+    }
+    84% {
+       opacity: 1;
+    }
+    100% {
+       opacity: 0;
+    }
+}
+.success
+{
+  display:  none;
+  position: relative;
+  color: green;
+  text-align: center;
+  font-size: 30px;
+  opacity: 0;
+  margin-bottom: 10px;
+  -webkit-animation: fadeInOut 3s;
+  animation: fadeInOut 3s;
+}
+.upload-section > p
+{
+  padding-left: 4rem;
+  color: red;
+}
+/*********file preview***********/
+.preview-container
+{
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: white;
+  padding-bottom: 18rem;
+}
+.upload-heading
+{
+  color: #0d6994;
+  text-align: center;
+  margin-top: 5rem;
+}
+.table-contain
+{
+  margin-top: 2rem;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+table, th, td
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  min-width: 8rem;
+}
+th, td 
+{
+  padding: 5px;
+}
+th 
+{
+  text-align: left;
+}
+img
+{
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid lightblue;
+}
+a
+{
+  text-decoration: none;
+}
+
+/********** Register ***********/
+.register-container
+{
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  width: 50%;
+  min-height: 9rem;
+  background-color: white;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.register-area
+{
+  width: 70%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.submit-area
+{
+   margin-bottom: 3rem;
+   height: 4rem;
+}
+.radio-text
+{
+  font-size: 16px;
+  margin-right: 3rem;
+}
+.check-text
+{
+   margin-right: 2.2rem;
+}
+.delete-profile > a
+{
+  font-size:18px;
+  color: red;
+  float:left;
+}

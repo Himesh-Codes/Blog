@@ -1,0 +1,210 @@
+.container-fluid
+{
+  width: 100%;
+  min-height: 62rem;
+  background-color: lightgrey;
+  padding: 0px;
+}
+/*********** Footer **********/
+.footer
+{
+  opacity: 0.6;
+  text-align: center;
+  color: #0d6994;
+}
+/********* title ************/
+.title-container 
+{
+  text-align: center;
+}
+.title-container h1
+{
+   color: #0d6994;
+   font-size: 2rem;
+}
+/********** navigation **********/
+.nav-contain
+{
+  border-bottom: 1px solid  #e1e1d0;
+  background-color: #0d6994;
+}
+.navlinks
+{
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+}
+.navlinks a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  margin: 0px 5px ;   
+}
+.navlinks span
+{
+  color: white;
+  font-size: 0.9rem;
+  padding: 3px;
+}
+.nav-contain > .navlinks:hover
+{
+  opacity: 0.8;
+  border-top: 3px solid white;
+  padding-bottom: 4px;
+  margin-bottom: 1px;
+}
+/************* Blog Content ***********/
+.blog-contain
+{
+  background-color: lightgrey;
+  min-height: 50rem;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.blog-create
+{
+  background-color: #0d6994;
+  border-radius: 10%;
+  width: 5rem;
+  margin-left: 7rem;
+  padding: 5px;
+  float: right;
+}
+.blog-create a
+{
+  color: white;
+  text-decoration: none;
+}
+.blogs
+{
+  width: 93%;
+  min-height: 5rem;
+  padding: 3rem;
+  margin: 2rem;
+  background-color: white;
+}
+.blog-icons > a > i
+{
+  font-size: 20px;
+  padding: 2px
+  color lightblue;
+  float: right;
+  margin: 5px;
+}
+
+.blogs > h2
+{
+  color: #0d6994;
+  font-weight: 700;
+}
+.blogs > h4
+{
+  color: grey;
+  font-weight: 700;
+}
+.blog-content
+{
+ text-align: left;
+ padding-left: 2rem;
+}
+.blog-content > p
+{
+  font-style: italic;
+}
+.dates
+{
+  font-weight: 600;
+  color: grey;
+}
+.image-section
+{
+ width:900px;
+ max-height: 900px;
+}
+.image-section > img
+{
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  max-height: 800px;
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+}
+.no-data
+{
+  margin-bottom: 10rem;
+  color: red;
+}
+.read-more
+{
+  border: none;
+  background-color: white;
+  color: green;
+}
+.read-more:hover
+{
+  opacity: 0.6;
+}
+/*********** Form content ***********/
+.form-page
+{
+  background-color: lightgrey;
+  min-height: 50rem;
+  width: 95%;
+  margin: auto;
+}
+
+.form-contain
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.titles
+{
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.form-page >input[type=text]
+{
+  width: 50rem;
+  height: 2rem;
+  margin-bottom: 20px;
+}
+
+select
+{
+  width: 15rem;
+  height: 2rem;
+  margin-bottom: 20px;
+}
+textarea
+{
+  width: 50rem;
+  height: 10rem;
+  margin-bottom: 20px;
+}
+.create-button
+{
+  font-size: 19px;
+  background-color: #0d6994;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  border: none;
+  color: white;
+  padding: 5px;
+}
+.errors
+{
+  color: red;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.file-picker > input[type=file]
+{
+  padding-left: 0rem;
+  color: blue;
+}
